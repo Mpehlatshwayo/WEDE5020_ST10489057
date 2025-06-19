@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html>
 <head>
     <link rel="stylesheet" href="styles.css">
@@ -7,39 +7,57 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>VeritasVintage | Home|</title>
+    <meta name="description" content="Discover sustainable, stylish, and affordable vintage fashion at VeritasVintage. Shop pre-loved clothes and reduce your carbon footprint.">
+  <meta name="keywords" content="vintage clothes, sustainable fashion, thrift, eco-friendly clothing, VeritasVintage , Vintage">
+  <meta name="author" content="VeritasVintage">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon:ital@0;1&display=swap" rel="stylesheet">
-   
+<script src="script.js" ></script>
+
 </head>
 
 <body>
+   <header class="site-header">
     <h1>VeritasVintage</h1>
     <div class="logo">
     <img src="../img/logo.png" width="125px" class="logo-img">
+    <!--Navigation bar-->
     <nav class="navbar">
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+
+
         <ul>
-            
             <li><a href="index.html"><i class="fa-solid fa-house-chimney"></i>Home</a></li>
             <li><a href="products.html"><i class="fa-solid fa-shirt"></i>Products</a></li>
             <li><a href="contact.html"><i class="fa-solid fa-phone"></i>Contact</a></li>
             <li><a href="about.html"><i class="fa-solid fa-users"></i>About</a></li>
             <li><a href="blog.html"><i class="fa-solid fa-pen-to-square"></i>Blog</a></li>
            
+            
+            <div class="fa-icons">
+            </li>
+         <li id="search-btn"><i class="fa-solid fa-magnifying-glass"></i>
+         <li><i class="fa-solid fa-cart-shopping"></i></li>
+         <li><i class="fa-solid fa-user"></i></li>
+        </div>
            
-           <div class="fa-icons">
-               </li>
-            <li><i class="fa-solid fa-magnifying-glass"></i>
-            <li><i class="fa-solid fa-cart-shopping"></i></li>
-            <li><i class="fa-solid fa-user"></i></li>
-           </div>
-          
-        </ul>   
+           
+        
+
+            
+        </ul>
+        <!--search button-->
+               <div class="search-box" id="search-box">
+    <input type="text" id="search-input" placeholder="Search..."/>
+    <button onclick="searchPage( )">Go</button>
+</div>
+        
+
+        
     </nav>
 </div>
-</div>
-</div>
-    
+</header>
     
     
         
@@ -60,7 +78,7 @@
 
         </div>
         <div class="col-2">
-            <img src="../img/pexels-cottonbro-6041623.jpg">
+            <img src="../img/vintage man and women.jpg">
 
         </div>
         <div class="col-2"></div>
@@ -79,7 +97,7 @@
     <div class="small-container"></div>
     <div class="row">
         <div class="col-3">
-            <img src="../img/dress3.jpg">
+            <img src="../img/checkered dress.jpg" >
         </div>
         <div class="col-3">
             <img src="..//img/accessories1.jpg">
@@ -101,25 +119,25 @@
         <h2 class="title">Featured Products</h2>
         <div class="row">
             <div class="col-4">
-                    <img src="../img/pexels-urfriendlyphotog-22276407.jpg" style="width:100%">
-                    <h4>NEW BOY HAT</h4>
+                    <img src="../img/cotton jacket.jpg" style="width:100%">
+                    <h4>BROWN BLAZER</h4>
                     <b><p>R269;99</p></b>
                     
                   </div>
                   <div class="col-4">
                     <img src="../img/shoes1.jpg" style="width:100%">
                     <h4>BLACK LOAFERS</h4>
-                    <b><p>R440,00</p></b>
+                    <b><p>R300,00</p></b>
                     
                   </div>
                   <div class="col-4">
-                    <img src="../img/pexels-gift-omoh-2151606977-31863108.jpg" style="width:100%">
+                    <img src="../img/blazer.jpg" style="width:100%">
                     <h4>BEIGE BLAZER</h4>
-                    <b><p>R369,99</p></b>
+                    <b><p>R200,99</p></b>
                     
                   </div>
                   <div class="col-4">
-                    <img src="../img/pexels-tamillesesposito-15882669.jpg" style="width:100%">
+                    <img src="../img/corset.jpg" style="width:100%">
                     <h4>NUDE CORSET</h4>
                     <b><p>R266,00</p></b>
                      
@@ -138,7 +156,7 @@
     </div>
    
     
-    <!--Footer-->
+    <!--footer-->
     <div class="footer">
         <div class="footer-col-1">
             <h3>INFO</h3>
@@ -181,3 +199,7 @@
 
 
 </html>
+
+
+                
+
